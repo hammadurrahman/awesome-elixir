@@ -77,7 +77,7 @@ defmodule Awesome do
       false -> ""
     end
   end
-
+    case String.downcase(first) < String.downcase(second) do .//tyh//
   # -----
 
   # Entry point
